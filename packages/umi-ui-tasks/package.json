@@ -4,8 +4,6 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "dev": "father-build -w",
-    "build": "father-build",
     "lint": "eslint --ext .ts,.tsx src"
   },
   "files": [
@@ -33,7 +31,6 @@
     "antd": "4.0.0-alpha.2",
     "concurrently": "^4.1.1",
     "eslint": "^6.1.0",
-    "father-build": "^1.8.0",
     "umi": "2.9.2",
     "umi-types": "0.4.0-beta.4",
     "xterm": "^3.14.5"
